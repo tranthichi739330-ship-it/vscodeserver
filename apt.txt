@@ -1,5 +1,4 @@
 curl
 wget
 nano
-lesspipe
 sudo
