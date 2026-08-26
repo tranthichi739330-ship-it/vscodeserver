@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Tải và cài đặt code-server bản mới nhất vào thư mục của user
+curl -fsSL https://code-server.dev/install.sh | sh -s -- --version 4.11.0 --user-local
+
+# Tạo đường dẫn giả lập (symlink) để jupyter-vscode-proxy tìm thấy lệnh code-server
+mkdir -p ~/.local/bin
+ln -s ~/.local/lib/code-server-4.11.0/bin/code-server ~/.local/bin/code-server
