@@ -2,4 +2,5 @@ curl
 wget
 nano
 sudo
-distrobox
+qemu-system
+cloud-image-utils
