@@ -2,11 +2,4 @@ curl
 wget
 nano
 sudo
-ffmpeg 
-python3
-docker.io
-docker-compose
-htop
-unminimize
-nodejs
-npm
+distrobox
