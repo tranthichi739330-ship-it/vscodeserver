@@ -1,6 +1,5 @@
 curl
 wget
 nano
-sudo
-qemu-system
+qemu-system-x86_64
 cloud-image-utils
